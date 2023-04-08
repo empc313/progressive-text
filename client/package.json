@@ -6,7 +6,7 @@
   },
   "scripts": {
     "dev": "webpack-dev-server",
-    "build": "webpack --mode production",
+    "build": "webpack --mode production --config ./webpack.prod.config.js",
     "start": "webpack --watch"
   },
   "author": "2U",
